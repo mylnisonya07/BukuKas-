@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="421.0" prefWidth="836.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bukukas1.conNotifikasi">
+   <children>
+      <Label layoutX="158.0" layoutY="28.0" prefHeight="73.0" prefWidth="580.0" text="Hai Pengguna BukuKas!">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="228.0" layoutY="137.0" prefHeight="54.0" prefWidth="382.0" text="Lakukan transaksi untuk mendapatkan pemberitahuan baru.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="239.0" fitWidth="312.0" layoutX="312.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../bukukas/gambar/pngtree-indonesia-rupiah-golden-money-coin-png-image_5569209-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

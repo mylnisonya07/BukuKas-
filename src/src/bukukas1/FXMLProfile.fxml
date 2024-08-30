@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="421.0" prefWidth="836.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bukukas1.conProfile">
+   <children>
+      <Pane layoutX="-3.0" layoutY="-2.0" prefHeight="418.0" prefWidth="173.0" style="-fx-background-color: #012340;">
+         <children>
+            <Circle fill="#2e91ac" layoutX="50.0" layoutY="45.0" radius="29.0" stroke="WHITE" strokeType="INSIDE" />
+            <Circle fill="#6c95a0" layoutX="192.0" layoutY="147.0" radius="39.0" stroke="WHITE" strokeType="INSIDE" />
+            <Circle fill="#bbdceb" layoutX="119.0" layoutY="95.0" radius="83.0" stroke="WHITE" strokeType="INSIDE" />
+            <ImageView fitHeight="176.0" fitWidth="173.0" layoutX="32.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../bukukas/gambar/8964998576cfac440b3a14df748fc670-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="232.0" layoutY="7.0" prefHeight="59.0" prefWidth="603.0" style="-fx-background-color: #99b9ee;">
+         <children>
+            <Text fill="WHITE" layoutX="68.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profil pengguna">
+               <font>
+                  <Font name="System Bold Italic" size="25.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="43.0" fitWidth="59.0" layoutX="462.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../bukukas/gambar/logo.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="514.0" layoutY="16.0" text="BukuKas" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="267.0" layoutY="88.0" prefHeight="17.0" prefWidth="522.0" style="-fx-background-color: #012340;" text="Nama Pengguna" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="268.0" layoutY="153.0" prefHeight="17.0" prefWidth="522.0" style="-fx-background-color: #012340;" text="Email" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbUsername" layoutX="281.0" layoutY="114.0" prefHeight="27.0" prefWidth="507.0" style="-fx-background-color: #dddddd;">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbGmail" layoutX="281.0" layoutY="180.0" prefHeight="27.0" prefWidth="509.0" style="-fx-background-color: #dddddd;">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="33.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="241.0" fitWidth="230.0" layoutX="59.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../bukukas/gambar/c3ed580c97e43b22f1c5c26c07e90730-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Line endX="100.0" layoutX="730.0" layoutY="252.0" startX="-100.0" />
+      <Text layoutX="634.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEDIA SOSIAL" />
+      <Line endX="100.0" layoutX="390.0" layoutY="252.0" startX="-100.0" />
+      <Text layoutX="294.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INFO" />
+      <Label layoutX="294.0" layoutY="263.0" text="Alamat">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../bukukas/gambar/alamat-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label layoutX="294.0" layoutY="315.0" text="Kontak">
+         <graphic>
+            <ImageView fitHeight="34.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../bukukas/gambar/kontak-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label layoutX="294.0" layoutY="369.0" text="Website">
+         <graphic>
+            <ImageView fitHeight="29.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../bukukas/gambar/website-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label layoutX="649.0" layoutY="252.0" text="Twitter">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../bukukas/gambar/sosmed-removebg-preview%20-%20Copy%20(2).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label layoutX="649.0" layoutY="294.0" text="Whatsapp">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../bukukas/gambar/sosmed-removebg-preview%20-%20Copy%20(3).png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label layoutX="649.0" layoutY="334.0" text="Facebook">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../bukukas/gambar/sosmed-removebg-preview%20-%20Copy.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label layoutX="645.0" layoutY="374.0" text="Instagram">
+         <graphic>
+            <ImageView fitHeight="31.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../bukukas/gambar/sosmed-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label layoutX="331.0" layoutY="295.0" prefHeight="17.0" prefWidth="198.0" text="Kaliurang St No.Km. 14,5, Yogyakarta" textFill="#919191" />
+      <Label layoutX="332.0" layoutY="348.0" prefHeight="17.0" prefWidth="198.0" text="+62800000001" textFill="#919191" />
+      <Label layoutX="332.0" layoutY="394.0" prefHeight="17.0" prefWidth="198.0" text="Onderfull.com" textFill="#919191" />
+      <Label layoutX="682.0" layoutY="280.0" prefHeight="17.0" prefWidth="151.0" text="Onderfull01_" textFill="#919191" />
+      <Label layoutX="682.0" layoutY="322.0" prefHeight="17.0" prefWidth="101.0" text="+62800000001" textFill="#919191" />
+      <Label layoutX="682.0" layoutY="362.0" prefHeight="17.0" prefWidth="151.0" text="Onderfull01_" textFill="#919191" />
+      <Label layoutX="683.0" layoutY="397.0" prefHeight="17.0" prefWidth="130.0" text="Onderfull01_" textFill="#919191" />
+   </children>
+</AnchorPane>

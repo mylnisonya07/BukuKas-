@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="421.0" prefWidth="836.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bukukas1.conTransaksi">
+   <children>
+      <ImageView fitHeight="354.0" fitWidth="518.0" layoutX="256.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../bukukas/gambar/post-image-1611542893701.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="255.0" layoutY="8.0" text="Nama transaksi">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="keuntungan" layoutX="435.0" layoutY="364.0" prefHeight="17.0" prefWidth="196.0" style="-fx-background-color: #c8e0e4; -fx-border-color: #223053;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfJudul" layoutX="250.0" layoutY="30.0" prefHeight="34.0" prefWidth="371.0" />
+      <TextField fx:id="tfPenjualan" layoutX="367.0" layoutY="125.0" prefHeight="25.0" prefWidth="261.0" />
+      <TextField fx:id="tfhargaPokok" layoutX="366.0" layoutY="163.0" prefHeight="25.0" prefWidth="261.0" />
+      <DatePicker fx:id="dpTglTransaksi" layoutX="247.0" layoutY="208.0" />
+      <Button layoutX="351.0" layoutY="369.0" mnemonicParsing="false" onAction="#hitungKeuntungan" text="Untung" />
+      <TextField fx:id="tfCatatan" layoutX="380.0" layoutY="301.0" />
+      <TextField fx:id="tfPelanggan" layoutX="379.0" layoutY="259.0" />
+      <Label layoutX="252.0" layoutY="263.0" prefHeight="17.0" prefWidth="196.0" text="Nama Pelanggan" />
+      <Label layoutX="255.0" layoutY="304.0" prefHeight="17.0" prefWidth="196.0" text="Catatan/keterangan" />
+      <Label layoutX="252.0" layoutY="82.0" text="Kategori bisnis">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <ChoiceBox fx:id="kategori" layoutX="369.0" layoutY="77.0" prefHeight="25.0" prefWidth="258.0" />
+      <Button layoutX="702.0" layoutY="362.0" mnemonicParsing="false" onAction="#simpanTransaksi" prefHeight="26.0" prefWidth="89.0" text="SIMPAN">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="252.0" layoutY="129.0" text="Nominal penjualan">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="252.0" layoutY="164.0" text="Harga pokok">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="255.0" prefHeight="17.0" prefWidth="122.0" style="-fx-background-color: #e1e1da;" text="Transaksi melalui : " />
+      <RadioButton fx:id="btGoppay" layoutX="29.0" layoutY="272.0" mnemonicParsing="false">
+         <graphic>
+            <ImageView fitHeight="55.0" fitWidth="94.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../bukukas/gambar/GoPay-logo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </RadioButton>
+      <RadioButton fx:id="btOvo" layoutX="29.0" layoutY="320.0" mnemonicParsing="false">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../bukukas/gambar/ovo-logo-ovo-indonesia-png-image-with-transparent-background-ovo-hd-png-840_859-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </RadioButton>
+      <RadioButton fx:id="btDana" layoutX="29.0" layoutY="358.0" mnemonicParsing="false">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../bukukas/gambar/Z76AQN3EMBCGU75JCX7KTYE5T9PMMWDHP39GFGAU-5b9b2eab-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </RadioButton>
+      <Label layoutX="36.0" layoutY="24.0" prefHeight="41.0" prefWidth="184.0" text="Transaksi Penjualan">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="315.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../bukukas/gambar/klk-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

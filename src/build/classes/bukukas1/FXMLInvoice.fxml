@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainPane" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bukukas1.conInvoice">
+   <center>
+      <AnchorPane id="AnchorPane" prefHeight="421.0" prefWidth="836.0">
+         <children>
+            <Label layoutX="552.0" layoutY="18.0" prefHeight="58.0" prefWidth="245.0" text="I  N  V  O  I  C  E" textFill="#d6d6d6">
+               <font>
+                  <Font name="System Bold Italic" size="27.0" />
+               </font>
+            </Label>
+            <Pane layoutX="213.0" layoutY="87.0" prefHeight="291.0" prefWidth="613.0" style="-fx-background-color: #e1e4f1;">
+               <children>
+                  <ImageView fitHeight="42.0" fitWidth="37.0" layoutX="564.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../bukukas/gambar/logo.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="482.0" layoutY="10.0" text="BukuKas">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="463.0" layoutY="90.0" text="Penjualan :" />
+                  <Label layoutX="463.0" layoutY="142.0" text="Harga pokok :" />
+                  <Label layoutX="188.0" layoutY="207.0" text="Keuntungan :" />
+                  <Label layoutX="443.0" layoutY="269.0" text="Waktu " />
+                  <ImageView fitHeight="59.0" fitWidth="107.0" layoutX="111.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../bukukas/gambar/pngtree-indonesia-rupiah-golden-money-coin-png-image_5569209-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="408.0" fitWidth="407.0" layoutX="45.0" layoutY="-91.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../bukukas/gambar/68390ac53e8c47ad0339a48ebee5da87-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lbPenjualan" layoutX="445.0" layoutY="110.0" prefHeight="24.0" prefWidth="142.0" style="-fx-background-color: #f7f7f5;" />
+                  <Label fx:id="lbHpokok" layoutX="446.0" layoutY="163.0" prefHeight="24.0" prefWidth="142.0" style="-fx-background-color: #f7f7f5;" />
+                  <Label fx:id="lbUntung" layoutX="170.0" layoutY="228.0" prefHeight="44.0" prefWidth="194.0" style="-fx-border-color: #223053;">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbWaktu" layoutX="484.0" layoutY="270.0" prefHeight="17.0" prefWidth="124.0" />
+                  <Label fx:id="lbJudul" layoutX="215.0" layoutY="76.0" prefHeight="24.0" prefWidth="176.0" style="-fx-background-color: #f7f7f5;" />
+                  <Label fx:id="lbKategori" layoutX="216.0" layoutY="114.0" prefHeight="24.0" prefWidth="176.0" style="-fx-background-color: #f7f7f5;" />
+                  <Label fx:id="lbCatatan" layoutX="217.0" layoutY="150.0" prefHeight="24.0" prefWidth="176.0" style="-fx-background-color: #f7f7f5;" />
+               </children>
+            </Pane>
+            <ImageView fitHeight="414.0" fitWidth="415.0" layoutX="2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../bukukas/gambar/08f4a3060f671706d725c6e740f17005-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="329.0" layoutY="165.0" text="Nama tagihan   :" />
+            <Label layoutX="330.0" layoutY="202.0" text="Kategori" />
+            <Label layoutX="330.0" layoutY="241.0" text="Catatan             : " />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

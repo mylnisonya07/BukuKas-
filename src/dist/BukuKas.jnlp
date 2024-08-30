@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BukuKas.jnlp">
+  <information>
+    <title>BukuKas</title>
+    <vendor>Endang</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BukuKas.jar" size="1967419" download="eager" />
+    <jar href="lib\xstream-1.4.17.jar" size="629806" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="BukuKas" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="bukukas1.BukuKas"  name="BukuKas" />
+  <update check="always"/>
+</jnlp>
